@@ -17,31 +17,31 @@ int A, B, C, H, L, I, J;
 int main()
 {
     printf("Digite uma medida\n");
-    scanf("%d\n",&A);
+    scanf("%d",&A);
     printf("Digite outra medida\n");
-    scanf("%d\n",&B);
+    scanf("%d",&B);
     printf("Digite uma outra medida\n");
-    scanf("%d\n",&C);
+    scanf("%d",&C);
     printf("Digite uma medida da janela\n");
-    scanf("%d\n",&H);
+    scanf("%d",&H);
     printf("Digite outra medida da janela\n");
-    scanf("%d\n",&L);
+    scanf("%d",&L);
     J=0;
     I=0;
-    if (&A < &H || &B < &H || &B < &H)
+    if ( A < H || B < H || C < H)
     {
-        I++;
+        I=I+1;
     }
     
-    if (&A < &L || &B < &L || &C < &L)
+    if (A < L || B < L || C < L)
     {
-        J++;
+        J=J+1;
     }
-    if (&I > 0 && &J > 0)
+    if (I > 0 && J > 0)
     {
-        printf("Cabe");
+        printf("Cabe\n");
     }
     else{
-        printf("Não cabe");
+        printf("Nao cabe\n");
     } 
 }
