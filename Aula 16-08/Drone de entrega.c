@@ -32,7 +32,7 @@ int main()
     {
         I=I+1;
     }
-    
+
     if (A < L || B < L || C < L)
     {
         J=J+1;
