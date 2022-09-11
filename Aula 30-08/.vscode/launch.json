@@ -8,10 +8,10 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/jcram/OneDrive/Programacao/Fundamentos de Programação I",
-      "program": "c:/Users/jcram/OneDrive/Programacao/Fundamentos de Programação I/build/Release/outRelease",
+      "cwd": "c:/Users/jcram/OneDrive/Programacao/Fundamentos de Programação I/Aula 30-08",
+      "program": "c:/Users/jcram/OneDrive/Programacao/Fundamentos de Programação I/Aula 30-08/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb.exe",
+      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
