@@ -33,6 +33,7 @@
   "C_Cpp.errorSquiggles": "Enabled",
   "files.associations": {
     "drone de entrega": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "time.h": "c"
   }
 }
